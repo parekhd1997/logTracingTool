@@ -53,6 +53,10 @@ public class ProcessLogs {
 		    		logger.info(startInfo);
 		    		logger.info(finishInfo);
 		    		
+		    		conUtil.commitLogToFile(startInfo);
+		    		conUtil.commitLogToFile(finishInfo);
+		    		
+		    		
 		    	}
 		    	
 		    }
